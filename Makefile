@@ -1,6 +1,5 @@
 .DEFAULT_GOAL := all
 .PHONY: all
 all:
-	rm -r build
-	mkdir build
+	mkdir -p build
 	cp src/* build/
